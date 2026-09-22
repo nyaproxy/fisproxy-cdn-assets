@@ -1,8 +1,8 @@
 {
   "site": "web",
-  "tag": "web-180a2f1",
-  "commit": "180a2f1b1d5c7030ff59998534a1c08bcae00355",
-  "generatedAt": "2026-09-22T11:06:03.154Z",
+  "tag": "web-deadbee",
+  "commit": "deadbee0000000000000000000000000000000000",
+  "generatedAt": "2026-09-22T11:27:36.793Z",
   "files": {
     "web/assets/accelerate-CEffmS0r.js": {
       "sha384": "+yDy81vCh6xCjA5x6feHACm6Ds4KsghOg2U9GqOu7mYoWJUYf6ZgSuSApaF9XNuo",
@@ -121,8 +121,8 @@
       "bytes": 28562
     },
     "web/assets/index-CBBGSVSb.js": {
-      "sha384": "7xP4/lcLcGSo6r7iPkP1tTKdTMO9zVMMqh21pWq5ZwT1WMgku09wRacKlIMPj/rW",
-      "bytes": 424478
+      "sha384": "lnVrEHi9gZLGIby72QNVkUO9Pj/Ds0Ez+iwEZEBcDhpjuQYKuJIjkeiNqSnR3ZT7",
+      "bytes": 430174
     },
     "web/assets/index-XmHVWOVb.css": {
       "sha384": "g1hOzUtCWJBGxyLMrzAOAjDOsLPmne34Lrboqm0KBRZjjfDdSIWW8LqwEMp+xaMH",
