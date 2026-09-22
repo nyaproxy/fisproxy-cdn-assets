@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,67927,t=>{"use strict";var e=t.i(86253);t.s(["ChevronRight",()=>e.default])}]);

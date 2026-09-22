@@ -1,0 +1,440 @@
+{
+  "site": "wiki",
+  "tag": "wiki-e9832cd",
+  "commit": "e9832cdea3458b47c968a9f42b64ed876eade81c",
+  "generatedAt": "2026-09-22T11:28:17.322Z",
+  "files": {
+    "wiki/_next/static/Jopu8KdMvoSsNGB9IYZiO/_buildManifest.js": {
+      "sha384": "2dEqGritaFNBPlwUE03sEvvVGSTKu3ZjAdpB3KtyEVeEfyuBcLvNrnvyFuYJ+vO2",
+      "bytes": 364
+    },
+    "wiki/_next/static/Jopu8KdMvoSsNGB9IYZiO/_clientMiddlewareManifest.js": {
+      "sha384": "FydDAC1UDIxpwcrmue95P5vRCO20eynViUoChMeytNUbCT3HHGva5hPDru9bl5H+",
+      "bytes": 96
+    },
+    "wiki/_next/static/Jopu8KdMvoSsNGB9IYZiO/_ssgManifest.js": {
+      "sha384": "jnCHeoDJknyh1Uc1Amkm2k7/m4ljprA2WG15tfzmCtoLmMUX+2kUgvNSxYe1ikOK",
+      "bytes": 111
+    },
+    "wiki/_next/static/chunks/0cz1d0mv5g_q7.js": {
+      "sha384": "w1OChgUsMz6Qk5chKcfnqibG8VNLM2FcpIoMlpX/PTNfc9SE68eLEzTKv7bV3aY7",
+      "bytes": 112594
+    },
+    "wiki/_next/static/chunks/0hsp90fymipr7.js": {
+      "sha384": "HjzdVZvY71FYSzgDqCDzqvS/QdYuK6AVaN/lK+sJ5Qf1QSiSH8LXCcqlg134Bzw9",
+      "bytes": 225957
+    },
+    "wiki/_next/static/chunks/0oyn-8imgh6-q.js": {
+      "sha384": "78GNPwxPIWfXTnxu38IoMQmLbPiOjDWHmtVPzwcN9Dl1Qgp6UfkkTgy8t6o+6rvo",
+      "bytes": 12033
+    },
+    "wiki/_next/static/chunks/0t1v0ojdm_6yw.js": {
+      "sha384": "v9PDeGFovZlZTZz5K/Pa4YXZJ4zDjdChUPO51fIlhnKNwYlsICx0PMBHPNBDw0vm",
+      "bytes": 1279
+    },
+    "wiki/_next/static/chunks/0x2hdb-9amoeg.js": {
+      "sha384": "JiYNMXWRpdI8Es62ZBnzVkZMXVt5y5kgH93Sx7aO59cpk6GCXKJqVb58OZMqJfFw",
+      "bytes": 71676
+    },
+    "wiki/_next/static/chunks/10kw-r6etqj0b.js": {
+      "sha384": "yFzFBAmIyFrXd/VWVKo0qjbHBV9TzBJLhqDgLYXyYl7nWd1yG7pcO3vU1pB05zTw",
+      "bytes": 69405
+    },
+    "wiki/_next/static/chunks/18_1-sx_uww9l.js": {
+      "sha384": "+aM8BlpLV1vfYUNWWI7JMVHArLrmyjbqJu62Qd/gvdqC9uon5AJx5kdE5n8cOhN/",
+      "bytes": 228844
+    },
+    "wiki/_next/static/chunks/1gvwe0velnw6a.js": {
+      "sha384": "jwx7DHS/k9lgjLQUTMJB7iQmR92KcRA36GUZCKbtJ1TVHSmAdpJu2itinyRBhdAI",
+      "bytes": 2625
+    },
+    "wiki/_next/static/chunks/1ix4874_c6iym.js": {
+      "sha384": "6q4icO6Fi94K+GLEiSLCwGFAowVKkOPgCeFScj+YPmM57vt3Wt//7rq36FhJi8Xb",
+      "bytes": 314
+    },
+    "wiki/_next/static/chunks/1iye7dwhtxrnu.js": {
+      "sha384": "XEhucvhLowxXC5jVC8vPmE49HANx2Pjrl15VNNq7CupHThcesEtYs1Mntdatilxh",
+      "bytes": 34010
+    },
+    "wiki/_next/static/chunks/1ocijsw1rf1te.js": {
+      "sha384": "BKOrbXEx4hFRWA4j2jia3cMPPgpn6mYSYCQPahAe9uBd4sVx06AWa/OwL2eG2LZC",
+      "bytes": 281
+    },
+    "wiki/_next/static/chunks/2-qy0w66ixicv.js": {
+      "sha384": "28EdHf+mUHPVtE5/RZs6V2+JiGgoALPs0bx3rbxynob04v47qEjq22JvEVpuPkol",
+      "bytes": 180946
+    },
+    "wiki/_next/static/chunks/211cunfhqyd6d.js": {
+      "sha384": "qmC7vPpgcLBpv9Ut5rE4rpsgyPQfQOowySTkie9BVHKBwE9x2f0X40oEgMtDQTFT",
+      "bytes": 14376
+    },
+    "wiki/_next/static/chunks/28gn02g-uwi5m.js": {
+      "sha384": "QWKDYv39zrqXYweRTix2RQv+s5dkMI85KNcLgFI7+ljd3Oz/JeRgS1lHgPo8eKYl",
+      "bytes": 5598
+    },
+    "wiki/_next/static/chunks/28scvy598262v.js": {
+      "sha384": "uBQSGss4pT5P4LZVP8tf0KmkUxD6/hCkG9l9Z9pn/FBTItELZ/xtpRYqYdqRTmlT",
+      "bytes": 46791
+    },
+    "wiki/_next/static/chunks/2cgiwkhvzs-7w.js": {
+      "sha384": "GNkw1WW+bG+gRA7zB+jhQUMod2oOCeNvTgzT5G7Ff1KImj9Lz23hN+NejOCMJkCJ",
+      "bytes": 1822
+    },
+    "wiki/_next/static/chunks/2iu20jam_i4t1.css": {
+      "sha384": "rkRzodVfgjNj8RMOxc67Pv/du2QbGFglqD5cG8EyeXJ82MEk6P85qdhFQSS9vDJY",
+      "bytes": 123474
+    },
+    "wiki/_next/static/chunks/2kmmvzt0e9jj1.js": {
+      "sha384": "ZxnlnM4/CMLUHc4Zhp3yW6WNU7YkB5PbS+fDS0KnFj/a5/x/3rkO985zEEMRm3uY",
+      "bytes": 191
+    },
+    "wiki/_next/static/chunks/2pq32ykmh9rrm.js": {
+      "sha384": "WWOU8n/qzOp3vR7/Pek0hc7AiqVqkKbJSD53xuFU1QHcdre6vLCZUhOu94qQ6E+0",
+      "bytes": 1952
+    },
+    "wiki/_next/static/chunks/2t6t05zi_39zz.js": {
+      "sha384": "KzlaVIwEZV21pFoodSUL4Z3KT159m3uuzxMxc0zzl+DuGg7N7MeB11pOTm74Oe+I",
+      "bytes": 1518
+    },
+    "wiki/_next/static/chunks/2tsifrctr1che.js": {
+      "sha384": "THxU/eYbeECZZ5DJmLfAZBhkOklWV5FTzIqiCnFnS/6ebsDEt3jk7D8zWR+Mep9p",
+      "bytes": 119682
+    },
+    "wiki/_next/static/chunks/2xp9z3sz1tduk.js": {
+      "sha384": "lp/0z8Qli+JNQeGrCjc+ZSQvuuS/E6yrXxIMFaBhACWBwlt+aF+uSaMJATPw1hB6",
+      "bytes": 24528
+    },
+    "wiki/_next/static/chunks/2yzsws2usue-b.js": {
+      "sha384": "K8wc4cU9Es9XGzjqg6+EXmfmvSiUG4nolX5a62HX6kNYS2Fw6WyvAWL1XXvCl1XY",
+      "bytes": 88754
+    },
+    "wiki/_next/static/chunks/3htl4rajoogek.js": {
+      "sha384": "6HF7FNKFMClR2ka15tWhm1KCL9NXYb1XSV2vweeGx5CsscaKEY+WjpkSHBBR5re6",
+      "bytes": 158726
+    },
+    "wiki/_next/static/chunks/43wd2so83e0g5.js": {
+      "sha384": "7aLeEHhjH6KVyaSJxZd9ELXZ8JATElGcNEh3qT+Q8TcmBfSQheRGBSs3yxFt0AFg",
+      "bytes": 2682
+    },
+    "wiki/_next/static/chunks/turbopack-38jn4wcqil7nw.js": {
+      "sha384": "VgeYo8axp2a0dBqdiEjTQ8UjjoLnbxOMV1UkA2LJAMSYw81JeQF+GMYodqFkxL9O",
+      "bytes": 10960
+    },
+    "wiki/_next/static/media/KaTeX_AMS-Regular.10y3kupq4t663.woff": {
+      "sha384": "zzv6YlTIK2GVTGQkpvc0NSYe9dA7KZXEW2BvczWfxlIh461ItqQm6tLVCPwdqbIY",
+      "bytes": 33516
+    },
+    "wiki/_next/static/media/KaTeX_AMS-Regular.25ieegmnh38ts.woff2": {
+      "sha384": "PY9KakbvJJoGRFr9TsImY6e9PzVmMRFtphQ0xTPhQj7VgIR9nnPXP2nA4P49sNux",
+      "bytes": 28076
+    },
+    "wiki/_next/static/media/KaTeX_AMS-Regular.418dr7cz3fo2x.ttf": {
+      "sha384": "4HvaAg5sIo+ePC2KNUAHX4jdlj2ybM+9IydybFKNCWITmPi0cRigo/vlZerFfGmi",
+      "bytes": 63632
+    },
+    "wiki/_next/static/media/KaTeX_Caligraphic-Bold.06b-ya9t43ioz.woff2": {
+      "sha384": "GhFwF3Lk94gRRX3fKvK8qVRIaPRKBawaOWoLpTeJCC1rYaTrY7A8sjVjyaJCdvb0",
+      "bytes": 6912
+    },
+    "wiki/_next/static/media/KaTeX_Caligraphic-Bold.2vmk2hva4ctha.woff": {
+      "sha384": "ygS7CPHY5PC7fx0zaVMK1SjN7dDoFj/wXmgfn2uj079d7RBB4fZxFRWbkKVf41dH",
+      "bytes": 7716
+    },
+    "wiki/_next/static/media/KaTeX_Caligraphic-Bold.40ltxhe834pns.ttf": {
+      "sha384": "fk2geuLOgttbpdB5d/An1CnLBI+nr/OauHXIMjWgSrCq7zd9cAbNk0RPa0mvVewO",
+      "bytes": 12368
+    },
+    "wiki/_next/static/media/KaTeX_Caligraphic-Regular.07-7u27-nhn_r.ttf": {
+      "sha384": "P/mxa2P74e7Q/Nrraxf42MZR6BRDPj+6Y/8IK6gRZsP11tK3HCMWCjklTBZB/JTM",
+      "bytes": 12344
+    },
+    "wiki/_next/static/media/KaTeX_Caligraphic-Regular.2eph4dlhid_m9.woff2": {
+      "sha384": "0LpsQdZ8FRkW+0vIhMl+kNMsgYPhTA7pbCJDt43k6AHTpq7dv67sLl+bIaMuOiON",
+      "bytes": 6908
+    },
+    "wiki/_next/static/media/KaTeX_Caligraphic-Regular.3gxeetazf831f.woff": {
+      "sha384": "elINKb/ePoYhbFIcBY07QsNMkfzB9swtlkO/R0l8HiKUUOoS9nvubtiGKXil1+rI",
+      "bytes": 7656
+    },
+    "wiki/_next/static/media/KaTeX_Fraktur-Bold.19yqa_tc9d_gx.ttf": {
+      "sha384": "Zq+AdbMgMzJ0IJPXXIx3L2tAMHi23dEGbckSsEiXW5oGUHvrOyzHd93BmA+QCMxv",
+      "bytes": 19584
+    },
+    "wiki/_next/static/media/KaTeX_Fraktur-Bold.1alcy76__wdj2.woff": {
+      "sha384": "MLc8yubx1XSYPhZ+gHfqw7OEEtpYlctAwBpAbkGKj2sa6rHidJJrq/R4kz6EQdvm",
+      "bytes": 13296
+    },
+    "wiki/_next/static/media/KaTeX_Fraktur-Bold.2sasz-d-jtw8y.woff2": {
+      "sha384": "23N9yDc6628Shv+2pdeDIDYIXemJPKfZaANtneHGjhBoaxqeQsZQFBRLj+0/drG9",
+      "bytes": 11348
+    },
+    "wiki/_next/static/media/KaTeX_Fraktur-Regular.110oo81prr9n5.woff": {
+      "sha384": "JvvjekoYao3shCriOx820kL3YhUXXqJ+4H2SjePh/Gw5wmec0lZabTSSSGx80SyM",
+      "bytes": 13208
+    },
+    "wiki/_next/static/media/KaTeX_Fraktur-Regular.2d10y4xmjvzlf.woff2": {
+      "sha384": "N4B5/o3aSwC8EE7MIGghu2mB6cSIwYHNyiY9bhuVnozyLoHpYT+VEEjdYqJ+7mN7",
+      "bytes": 11316
+    },
+    "wiki/_next/static/media/KaTeX_Fraktur-Regular.2qhy34r6a05dn.ttf": {
+      "sha384": "blyz/LtaFRdrehvymFg77DpI8i7KP11WnKs7brnbFhPgN2yghQrebswuoH3JW4Cm",
+      "bytes": 19572
+    },
+    "wiki/_next/static/media/KaTeX_Main-Bold.0us_n0tnxlxu7.ttf": {
+      "sha384": "H0sbiX9Nc+HBZQ/Hcnoo5XrAbQeXHHfm4vSjFnbcGFTc1RQNTTgAFou5eVy8YImZ",
+      "bytes": 51336
+    },
+    "wiki/_next/static/media/KaTeX_Main-Bold.0v1esh257kqpe.woff": {
+      "sha384": "t+Y0wR/F4tGlX27vTKgfEltk4j0Bj+LMZOlijbUQK7y5ZFlFM64IK1+XwdYAaOfr",
+      "bytes": 29912
+    },
+    "wiki/_next/static/media/KaTeX_Main-Bold.3-rowy8o6_4ky.woff2": {
+      "sha384": "MnzwPa3V5+Sly78huHTxfNszB+vQQmvhX4O4+m3UZ7LzQoA9wxEhsgxQsvW1y8dV",
+      "bytes": 25324
+    },
+    "wiki/_next/static/media/KaTeX_Main-BoldItalic.13355ck5zr48q.woff": {
+      "sha384": "jcZZbICEiFyNfyCr//GnL9SLbL0kfFYSIkJMFwIV7nsXKZVQPTz4EfiuFQdenBWl",
+      "bytes": 19412
+    },
+    "wiki/_next/static/media/KaTeX_Main-BoldItalic.14r2naom8mrec.woff2": {
+      "sha384": "XtHiL6YLLShFl6oq2ZOcqTQBsloU+AvJDaGE7Xz/76bt4BWZuJn8tsj7dHnKndKi",
+      "bytes": 16780
+    },
+    "wiki/_next/static/media/KaTeX_Main-BoldItalic.3x_u9cepaced0.ttf": {
+      "sha384": "kHQQR+DfeO06KIwEQaObiQKQmA2AE2xgdK4WuLCevcqv2wM5lo5Q9+uBO58b2nhw",
+      "bytes": 32968
+    },
+    "wiki/_next/static/media/KaTeX_Main-Italic.0afv392dj4w59.woff": {
+      "sha384": "TM7Mvm4ASc5Ybmy581bes8AGl19eGiJcokfFUWB9daQDMsjiGgZN1PRpVSIYiDMh",
+      "bytes": 19676
+    },
+    "wiki/_next/static/media/KaTeX_Main-Italic.0lig0v9j0700p.woff2": {
+      "sha384": "pZ+saBD2/qiUjsKqk1z1NqixWQMZGxYCRcit0Dqfscp5Mj2xUX8bxMm8iKOYsAsQ",
+      "bytes": 16988
+    },
+    "wiki/_next/static/media/KaTeX_Main-Italic.2hkw3230mfwcv.ttf": {
+      "sha384": "LqXfLspWnja5UgG70Sk9wInrBX6NYvn8B3Mp0io4DvrRxMC+gH3izBOKqBWTs3fD",
+      "bytes": 33580
+    },
+    "wiki/_next/static/media/KaTeX_Main-Regular.0symfa7dqj6jd.ttf": {
+      "sha384": "PXJWVi0kXWCuY/H/40C3LSgJgcbPJAC0AkGhL14lwslD/j9LPNhvN7xTZORmE7t4",
+      "bytes": 53580
+    },
+    "wiki/_next/static/media/KaTeX_Main-Regular.15u8r3b2y7fv4.woff": {
+      "sha384": "Q0HJ9A5ESTfdxrLfe5lAb04L9A0vY/5o4NWd0G5PJGr2sEMzXuhz2Iac62660prU",
+      "bytes": 30772
+    },
+    "wiki/_next/static/media/KaTeX_Main-Regular.1ryvsdzh2w1_e.woff2": {
+      "sha384": "K4rU/m6R4ygdFA2s4iphVuNOm4ksiQlo7BPut2DKbuGQFsmOTsh1vie2QdS8+qD/",
+      "bytes": 26272
+    },
+    "wiki/_next/static/media/KaTeX_Math-BoldItalic.0y5w36a5aq__2.ttf": {
+      "sha384": "SEMzanhxS5ILZ7gKz61N1o1JDyHx1I35pHN5XajDPn4exg/FykPSvxRQfQg825P9",
+      "bytes": 31196
+    },
+    "wiki/_next/static/media/KaTeX_Math-BoldItalic.12pl58orkw9rg.woff": {
+      "sha384": "fwMc9fmQOR2gr8la3It1u0k2bDs8lIc7nGHNGHEsyHSDzOw+nV5A4TGCQilm96dn",
+      "bytes": 18668
+    },
+    "wiki/_next/static/media/KaTeX_Math-BoldItalic.1oopuu636h4il.woff2": {
+      "sha384": "/bG/IuB65SsDidFgz28e7vwT1pxHih+EkPgQpjqmDVtOaSsPi/CXI7uT4nJnozAI",
+      "bytes": 16400
+    },
+    "wiki/_next/static/media/KaTeX_Math-Italic.0w0b1ugh62cfr.woff": {
+      "sha384": "uC2uQSWvpuK1FIJeSC20ULptMi4NYGjmEgcIg1hjqCZK8THdvh/Z1Jdqz0fhkeah",
+      "bytes": 18748
+    },
+    "wiki/_next/static/media/KaTeX_Math-Italic.2vkekfblmz5nb.ttf": {
+      "sha384": "ALJuUcghT4AT8JnHQZ3It3fwBT4S9M19DpikJ94E2zoWlOZDMcbME/uCPQhIjh6e",
+      "bytes": 31308
+    },
+    "wiki/_next/static/media/KaTeX_Math-Italic.32405s1aq8vas.woff2": {
+      "sha384": "ahAgpD3waV7F+QiHuM0WaQnVF/FMS0RXhS0dsThbGBuwv3RPHoxvT/8UGwzyOATH",
+      "bytes": 16440
+    },
+    "wiki/_next/static/media/KaTeX_SansSerif-Bold.0h3wi2z_eouyg.woff2": {
+      "sha384": "FWRmzdMUcxpbgWzOqA1THk/7QOuMshS6cTUeprW3TVnzjVrGnO9oCvWhE9lEwgGX",
+      "bytes": 12216
+    },
+    "wiki/_next/static/media/KaTeX_SansSerif-Bold.1ovw5p-yjp56g.woff": {
+      "sha384": "4s2634eUcPzgWS4k0TflD0rpBwCU+kGlAxD6B0NnduqvBJSKWRjprGAiShUvez+W",
+      "bytes": 14408
+    },
+    "wiki/_next/static/media/KaTeX_SansSerif-Bold.2d03q85pwxpti.ttf": {
+      "sha384": "GSLHS3JbC4uCKSDvfXaA2C+IQQ4pKOmCdLkka6sQGqifl39+vZaPbNnwt5gxYYAt",
+      "bytes": 24504
+    },
+    "wiki/_next/static/media/KaTeX_SansSerif-Italic.0wkjc4dm2kcit.woff2": {
+      "sha384": "cIAn4buHZvRkXL5LFuK8pAPVzxv0niY78zTOBRHvRmalHZh9IYFAzZQPwNnHj05g",
+      "bytes": 12028
+    },
+    "wiki/_next/static/media/KaTeX_SansSerif-Italic.1qavw__2zz8gk.woff": {
+      "sha384": "8kOHfXeePvROApUzB1rq84cjeOxKWPXE2J7U6fd7bORfN11ywltyXpfFblsUrdwS",
+      "bytes": 14112
+    },
+    "wiki/_next/static/media/KaTeX_SansSerif-Italic.3i-q087b23-m8.ttf": {
+      "sha384": "TMYgwDtAAwpo33rwGJEFhtE8uvfFJngvVP3zuCF5blSX1WisrycpAdHWL+tpclzL",
+      "bytes": 22364
+    },
+    "wiki/_next/static/media/KaTeX_SansSerif-Regular.1i4afx8nk8n4r.woff": {
+      "sha384": "KVbq0PpRXNs54ATT+soP/YPOvWTUEACw5S7F6ORCzcOW7Mu0kSjqkIX8ZsD72pDG",
+      "bytes": 12316
+    },
+    "wiki/_next/static/media/KaTeX_SansSerif-Regular.2peiewu59z3d-.woff2": {
+      "sha384": "hFb2fFUxKsM3r80syP3hRUPdmRjMS09eYDF7almTU926xWabYjc1wdbrC7CaV5N/",
+      "bytes": 10344
+    },
+    "wiki/_next/static/media/KaTeX_SansSerif-Regular.31pbu25feko_c.ttf": {
+      "sha384": "11xkyZ5gnrcUWPKj6q2+nQhL/c0nf5AnnaFIH+f1470KzzAt/aWT9wBekGQITe6C",
+      "bytes": 19436
+    },
+    "wiki/_next/static/media/KaTeX_Script-Regular.11h14300o9pd0.woff2": {
+      "sha384": "A6AdZ/mywRJao07EiGdwk4swWZyx+X1pi9aYMAdEYNUcIzbZzbrOlEnIBFn2tUvI",
+      "bytes": 9644
+    },
+    "wiki/_next/static/media/KaTeX_Script-Regular.28p_x7iz71ofe.ttf": {
+      "sha384": "ajALH5GUriSRD/8mDWxqTIMgFVLgf8rD9AGtZMAjlZcRsxUlvLPZSMQ9GcZxbPfV",
+      "bytes": 16648
+    },
+    "wiki/_next/static/media/KaTeX_Script-Regular.3110jb9c-bxna.woff": {
+      "sha384": "pUJC0ZXLxAtUYrIsxUjUTz7n1DwvTokhYetolDJHTyfqdU3xxfqqZui3QZ6Bto63",
+      "bytes": 10588
+    },
+    "wiki/_next/static/media/KaTeX_Size1-Regular.03lhvx36ekcou.woff2": {
+      "sha384": "vXXP3yBdT6+htUbz5gNLFqA/PE6AUmW++GDGZTnxOaHX2IFPIG1ie1qo3Ra6QXHy",
+      "bytes": 5468
+    },
+    "wiki/_next/static/media/KaTeX_Size1-Regular.1slf4bh0hc6vm.woff": {
+      "sha384": "gbBwLw2kvlHUO0ewbTJLdfR6X2Z5UoY6ZMzQk0vtg9i1xdYy3NJXvcxTz0u70DbZ",
+      "bytes": 6496
+    },
+    "wiki/_next/static/media/KaTeX_Size1-Regular.1y57-ck23ey8c.ttf": {
+      "sha384": "y99IQHoTIyDGDLbbj79IZyHIqkOAUOpY1dbZryOI14DPIuvBTdpaCz9XqiHynOC8",
+      "bytes": 12228
+    },
+    "wiki/_next/static/media/KaTeX_Size2-Regular.0-kwyvx03omo8.woff": {
+      "sha384": "S5AWjEM+Gmynga7cIAH6FXyOCt9oZLQUcpDaAZQBUgmK8k/NjYi/zpFNI0ppFl5o",
+      "bytes": 6188
+    },
+    "wiki/_next/static/media/KaTeX_Size2-Regular.14s5gg-puz6h-.woff2": {
+      "sha384": "hCKAtKJzh4FhbOKEWInGgZoaS+sek0VFv7B866K51w2+KRZ5E6GJcpWQHbEPGPZz",
+      "bytes": 5208
+    },
+    "wiki/_next/static/media/KaTeX_Size2-Regular.2u0s-b07k2o9m.ttf": {
+      "sha384": "Wt0vYQnaX7rcb51P4F5px/+x8Cn3HFgwlmtx8FWsGRDbYXd7EcC9KUVWxDhLaNOg",
+      "bytes": 11508
+    },
+    "wiki/_next/static/media/KaTeX_Size3-Regular.04o9a_02gu_e8.woff": {
+      "sha384": "1Kd5GmITD5ei9Lfp7Jf7cJZ7E2u9yW3v5Jk2soolHaZTpMoyrua7M8pDEsy+MrlM",
+      "bytes": 4420
+    },
+    "wiki/_next/static/media/KaTeX_Size3-Regular.1n1rgzz84z8r9.woff2": {
+      "sha384": "dJES0vnXQqt06SV8gVM87Qsddvp2jjMCSjJ/jfADNWOP1feq4AqxkHeo/HZRTeya",
+      "bytes": 3624
+    },
+    "wiki/_next/static/media/KaTeX_Size3-Regular.1pkn-dge4q0fv.ttf": {
+      "sha384": "VyJXOyBcY0oe4+HGFMHAxG48AlwCGWr1g0Lq1JlQF9g9cnYJCySSkP2ud/QDUKUX",
+      "bytes": 7588
+    },
+    "wiki/_next/static/media/KaTeX_Size4-Regular.2sgotkdv3dcyv.woff2": {
+      "sha384": "N0i7aW7M3/ioHKtRjR78Td+YATjbmUh0waMuUQOjBtv/bp4qTWd58I4etzZ71USy",
+      "bytes": 4928
+    },
+    "wiki/_next/static/media/KaTeX_Size4-Regular.2uelkfk2yna5e.ttf": {
+      "sha384": "grrp+LAfKSVDhNpdqxjjWCF4icHm3LbJKxmSUOEBZ01SzpKprWDhzTngYNISjaN+",
+      "bytes": 10364
+    },
+    "wiki/_next/static/media/KaTeX_Size4-Regular.3p2r1l7xmebxv.woff": {
+      "sha384": "eXy7t8oYcVxr4uwLqZIgfQwoP3TU7rsvakBaPdny6nYMd2aht/lkD6p8dfunIFhj",
+      "bytes": 5980
+    },
+    "wiki/_next/static/media/KaTeX_Typewriter-Regular.11gr2d2wuwz77.woff2": {
+      "sha384": "EwGF1si4JOX2592vVUMe7CnToRBlq2lo+w+8tVWLrJW5ZiwBuSry7Ozgs+cGHjmB",
+      "bytes": 13568
+    },
+    "wiki/_next/static/media/KaTeX_Typewriter-Regular.12f8myjij3617.woff": {
+      "sha384": "QgC/S/s/0LtGE68JU5CbH+belZAEK/GG7h0vLciCKsllXeLvZpvlpiHbC61MSKsn",
+      "bytes": 16028
+    },
+    "wiki/_next/static/media/KaTeX_Typewriter-Regular.3nee9kjfy6nm8.ttf": {
+      "sha384": "M1Mu9xT3GeBbVXdxoPNd26izfLmsiOvKjMFEG/jO/FdVVU9CPWN86D6y1YHV6ND6",
+      "bytes": 27556
+    },
+    "wiki/_next/static/media/accelerate_nfa_options.1gjkbyrevp656.webp": {
+      "sha384": "mbAz3XlbLzsJPuiPLUIa7CHiwT2giLmLGzTx/FKaPiXMT4VhYXQoKefRpI+BbsPB",
+      "bytes": 52082
+    },
+    "wiki/_next/static/media/accelerate_onboarding.188pvx-uh5yhl.webp": {
+      "sha384": "eB0wIEAJKZHVhPSCwMNwYAYOiELkGtuaTjcQ4P46HNTvhBz/gSTa3jJBbQg/0ekt",
+      "bytes": 62020
+    },
+    "wiki/_next/static/media/accelerate_services.3i5kqgetl-b29.webp": {
+      "sha384": "jgU8/hw3I1h/CpQwGp4+DL6Z/NTSUI/P7IrjNSowSWWjCGtRj59dYKhHoH0ALn4/",
+      "bytes": 40100
+    },
+    "wiki/_next/static/media/accelerate_session_running.38_ha889ccgp0.webp": {
+      "sha384": "B4hRH28bx8Bh1qm1lOV6rf/UEQYXt+1cb0igjF6MP59GSO+0RqYBHnN4ytJ8rYVD",
+      "bytes": 54086
+    },
+    "wiki/_next/static/media/accelerate_status_running.3qmwim9lf7jv3.webp": {
+      "sha384": "I80FRDRw4HqpUbNlNDitXOwBMVOhDpbb0Eom97kpogPZI8p4gWyHxooJh6e+JDmz",
+      "bytes": 9950
+    },
+    "wiki/_next/static/media/accelerate_target_picker.0w-s5a5br9ujg.webp": {
+      "sha384": "/gtn0n2vUUsvEJhLL7gs0NF4CNLLrpKxJtqZf93HbTtQaMWyfETtoHPyPmQCjj4v",
+      "bytes": 5612
+    },
+    "wiki/_next/static/media/account_balances.16oz19ei4j763.webp": {
+      "sha384": "wYTWbVF0Voajqh7vGDLObGkAY2rJPmBEkw21Xr59GbJ/pIRVleDn/4GlY6EJj+eU",
+      "bytes": 30976
+    },
+    "wiki/_next/static/media/account_bind_token.0bd2ag0jx9f96.webp": {
+      "sha384": "9i2S0uICS85HmCxbq6u2LdI0gnebSaZqbX2cfd5VR1U4Grw1jYZjiBwpgfEgCdzC",
+      "bytes": 34130
+    },
+    "wiki/_next/static/media/account_nfa_topup.11edhp_8mhxzu.webp": {
+      "sha384": "rG67mZBQp8m9RNcBinMp+hOThB7baIbKZIGKIYjcuLs4fDWADnjDdjusRJL7oH+S",
+      "bytes": 37334
+    },
+    "wiki/_next/static/media/account_passkey.2s4ku91oevlau.webp": {
+      "sha384": "3RZ55pv11e6lImg3RchrpmzSirgnVblb7bksdxNAozTUtxRb4fWZTeE2G2BROtHV",
+      "bytes": 17350
+    },
+    "wiki/_next/static/media/account_redeem.1qnga3lzbqx0m.webp": {
+      "sha384": "fwCHeXDXTwDXXaULDsK7mBJvguxkuY1Hnw5JYHDCG/+UKVNY8mm2o/XrSg0BjQXj",
+      "bytes": 8750
+    },
+    "wiki/_next/static/media/account_skin_pref.0a1zcj4_jbqh1.webp": {
+      "sha384": "WJXqsKTnJlY3i1uwAgto7npiidcO68r6rfX+hYWwvhbV3OpAjv5KjdKo84zB00C8",
+      "bytes": 52356
+    },
+    "wiki/_next/static/media/app_overview.3tqgyb3bp5fx3.webp": {
+      "sha384": "qD7U49oQss0tUHqxiU8Rc3Ncd84UHLaqp3TMWPYrCL4k1hLIoAakUoDEIzfJO0TL",
+      "bytes": 109040
+    },
+    "wiki/_next/static/media/history_audit.414--ry-gyvnq.webp": {
+      "sha384": "86kg+DQQ+eHfcOVoCXka2W4r+eDbUN04JSw+BCNRkhl9iRFLN1vIyFnead5P6d43",
+      "bytes": 70446
+    },
+    "wiki/_next/static/media/login_forgot_password.2dkr3g4o2cov_.webp": {
+      "sha384": "uRzXYdqQjr00rf4kGaCfe/zFrDHbbRYipJdYJ60WYMlWcrK3FiGPZ/sQ0xfjoFjr",
+      "bytes": 390750
+    },
+    "wiki/_next/static/media/login_password_tab.04_oupmr1jpbv.webp": {
+      "sha384": "Y9etViFHnnZviU7JzYwjI97NpOAwGTha8EW291jTLed8gxY3O3T9EwdDHASIfD6e",
+      "bytes": 395420
+    },
+    "wiki/_next/static/media/login_qq_code.10t6j-9mubi9h.webp": {
+      "sha384": "eSle1abj4QeTiZZCcPbjv8uYISDa7uBGWo21Shg++oGe7tB7G6XXbZ6iHBa7APR8",
+      "bytes": 490492
+    },
+    "wiki/_next/static/media/media_page.2etcz56ahm_70.webp": {
+      "sha384": "CMFYEu7cilQI2PcQ0ubRVXIBADv96cETSQ6rweK32HnNe0KgSYDBUM0eVzlM5XSW",
+      "bytes": 55936
+    },
+    "wiki/_next/static/media/tickets_page.3wm7j_ywkp3qv.webp": {
+      "sha384": "G7LGCf1zcqpiKvaYA9B2Z/DD35Me9mbyheS2O5vSS/pG1qeGeuGo/M1fEilMTyp1",
+      "bytes": 77164
+    }
+  }
+}
