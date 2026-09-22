@@ -1,8 +1,8 @@
 {
   "site": "shop",
-  "tag": "shop-234785a",
-  "commit": "234785ab8643b53fed660a9ae4d3b77ce4d60ca1",
-  "generatedAt": "2026-09-22T11:38:27.724Z",
+  "tag": "shop-234785b",
+  "commit": "234785b0000000000000000000000000000000000",
+  "generatedAt": "2026-09-22T11:38:55.462Z",
   "files": {
     "shop/assets/api-BJUUwq0P.js": {
       "sha384": "3wSZoqGY/8kqQhTq4pk6Nu1OHdtaiCZrOuKEoPyiQg8S+NA4MHucRMRDlk0NdT+l",
@@ -81,7 +81,7 @@
       "bytes": 129910
     },
     "shop/assets/manifest-bdf4e0e6.js": {
-      "sha384": "Yv5EMuMNxsmriGhkqWiTQiwea3nk9/fmdjVVVZJvIhmNY58lZXsehVqQLZmPWL6I",
+      "sha384": "X6cL1peryofRLT/KosgWqWpJXYYn9gcDsvIZ/yyXz52MSoLtMkDY/+y5hAH9HC/6",
       "bytes": 22805
     },
     "shop/assets/mutation-DoMzrrEA.js": {
