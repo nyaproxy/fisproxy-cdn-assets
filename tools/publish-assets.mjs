@@ -32,9 +32,14 @@ function parseArgs(argv) {
     if (!args[required]) throw new Error(`missing --${required.replace(/[A-Z]/g, (c) => `-${c.toLowerCase()}`)}`)
   }
   if (!/^[a-z0-9-]+$/.test(args.site)) throw new Error(`invalid site: ${args.site}`)
-  if (args.tag !== `${args.site}-${args.tag.slice(args.site.length + 1)}` || !/^[a-z0-9-]+-[0-9a-f]{7,40}$/.test(args.tag)) {
+  // GitHub expression context cannot slice a SHA, so callers may pass "<site>-<full sha>";
+  // tags are always normalised to <site>-<sha7> to match what the site builds resolve.
+  const [sitePrefix, ...rest] = args.tag.split("-")
+  const sha = rest.join("-")
+  if (sitePrefix !== args.site || !/^[0-9a-f]{7,40}$/.test(sha)) {
     throw new Error(`tag must be <site>-<sha>, got ${args.tag}`)
   }
+  args.tag = `${args.site}-${sha.slice(0, 7)}`
   if (!existsSync(resolve(args.sourceDir))) throw new Error(`source directory not found: ${args.sourceDir}`)
   return args
 }
@@ -110,7 +115,7 @@ function main() {
     console.log("nothing to publish; assets unchanged")
     return
   }
-  git(["commit", "-m", `${args.site}: publish ${args.tag}`], {
+  git(["-c", "commit.gpgsign=false", "commit", "-m", `${args.site}: publish ${args.tag}`], {
     stdio: "inherit",
     env: {
       ...process.env,
@@ -120,7 +125,7 @@ function main() {
       GIT_COMMITTER_EMAIL: AUTHOR_EMAIL,
     },
   })
-  git(["tag", args.tag, "-m", `${args.site} ${args.tag}`])
+  git(["-c", "tag.gpgsign=false", "tag", args.tag, "-m", `${args.site} ${args.tag}`])
   git(["push", "origin", "HEAD:main"])
   git(["push", "origin", `refs/tags/${args.tag}`])
   console.log(`published ${args.tag}`)

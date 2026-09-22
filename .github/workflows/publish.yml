@@ -92,7 +92,7 @@ jobs:
         run: |
           while IFS= read -r line; do
             [ -n "$line" ] || continue
-            echo "$line" >> "$GITHUB_ENV"
+            export "$line"
           done <<< "$BUILD_ENV"
           ${{ inputs.build_command }}
 
@@ -133,10 +133,11 @@ jobs:
         run: |
           manifest=".cdn-assets/${{ inputs.site }}/manifest.json"
           test -f "$manifest" || { echo "::error::manifest was not written"; exit 1; }
+          tag="$(jq -r .tag "$manifest")"
           {
-            echo "### ${{ inputs.tag }}"
+            echo "### $tag"
             echo
             echo "- files: $(jq '.files | length' "$manifest")"
             echo "- bytes: $(jq '[.files[].bytes] | add' "$manifest")"
-            echo "- mirror: https://cdn.jsdmirror.com/gh/nyaproxy/fisproxy-cdn-assets@${{ inputs.tag }}/${{ inputs.site }}/manifest.json"
+            echo "- mirror: https://cdn.jsdmirror.com/gh/nyaproxy/fisproxy-cdn-assets@$tag/${{ inputs.site }}/manifest.json"
           } >> "$GITHUB_STEP_SUMMARY"
