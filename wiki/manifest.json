@@ -1,9 +1,21 @@
 {
   "site": "wiki",
-  "tag": "wiki-e9832cdea3458b47c968a9f42b64ed876eade81c",
-  "commit": "e9832cdea3458b47c968a9f42b64ed876eade81c",
-  "generatedAt": "2026-09-22T11:31:32.123Z",
+  "tag": "wiki-e66499a",
+  "commit": "e66499aeadede9956266c875c9f24ca9be40bf3b",
+  "generatedAt": "2026-09-22T12:04:54.259Z",
   "files": {
+    "wiki/_next/static/2LpWvOKdaKn0N6KzL0Kbf/_buildManifest.js": {
+      "sha384": "aO+0kc76HJFE9r854gEW0mTOBLUXeAkL47tMV9rMld2cdFwLjl6Snb16vQy3EsWW",
+      "bytes": 364
+    },
+    "wiki/_next/static/2LpWvOKdaKn0N6KzL0Kbf/_clientMiddlewareManifest.js": {
+      "sha384": "FydDAC1UDIxpwcrmue95P5vRCO20eynViUoChMeytNUbCT3HHGva5hPDru9bl5H+",
+      "bytes": 96
+    },
+    "wiki/_next/static/2LpWvOKdaKn0N6KzL0Kbf/_ssgManifest.js": {
+      "sha384": "jnCHeoDJknyh1Uc1Amkm2k7/m4ljprA2WG15tfzmCtoLmMUX+2kUgvNSxYe1ikOK",
+      "bytes": 111
+    },
     "wiki/_next/static/chunks/0cz1d0mv5g_q7.js": {
       "sha384": "w1OChgUsMz6Qk5chKcfnqibG8VNLM2FcpIoMlpX/PTNfc9SE68eLEzTKv7bV3aY7",
       "bytes": 112594
@@ -104,9 +116,9 @@
       "sha384": "7aLeEHhjH6KVyaSJxZd9ELXZ8JATElGcNEh3qT+Q8TcmBfSQheRGBSs3yxFt0AFg",
       "bytes": 2682
     },
-    "wiki/_next/static/chunks/turbopack-22xwhfn4bqt1-.js": {
-      "sha384": "SpLWAsy9Ja+NQUNP8ZtzMeX0yup2IBXyXKm+Fm9JgZSa8zrECQWSbH/maMBvQidY",
-      "bytes": 10993
+    "wiki/_next/static/chunks/turbopack-0sikwvy_dgcea.js": {
+      "sha384": "zZRpYAXqTNSnnlj/irybyqKh5VBj2kW6eyKrx0Qzm1jFALdagxTfr5waR3qUA6ah",
+      "bytes": 10960
     },
     "wiki/_next/static/media/KaTeX_AMS-Regular.10y3kupq4t663.woff": {
       "sha384": "zzv6YlTIK2GVTGQkpvc0NSYe9dA7KZXEW2BvczWfxlIh461ItqQm6tLVCPwdqbIY",
@@ -423,18 +435,6 @@
     "wiki/_next/static/media/tickets_page.3wm7j_ywkp3qv.webp": {
       "sha384": "G7LGCf1zcqpiKvaYA9B2Z/DD35Me9mbyheS2O5vSS/pG1qeGeuGo/M1fEilMTyp1",
       "bytes": 77164
-    },
-    "wiki/_next/static/zBlhdkb0zjE4q3RnKfWNM/_buildManifest.js": {
-      "sha384": "vV7688PEehVHcZxcyBua2KZ1EhiR6fitag6tzKvKl1peyR5J29lzdiB1vqyRU+L0",
-      "bytes": 397
-    },
-    "wiki/_next/static/zBlhdkb0zjE4q3RnKfWNM/_clientMiddlewareManifest.js": {
-      "sha384": "FydDAC1UDIxpwcrmue95P5vRCO20eynViUoChMeytNUbCT3HHGva5hPDru9bl5H+",
-      "bytes": 96
-    },
-    "wiki/_next/static/zBlhdkb0zjE4q3RnKfWNM/_ssgManifest.js": {
-      "sha384": "jnCHeoDJknyh1Uc1Amkm2k7/m4ljprA2WG15tfzmCtoLmMUX+2kUgvNSxYe1ikOK",
-      "bytes": 111
     }
   }
 }
