@@ -44,6 +44,11 @@ on:
         required: false
         type: string
         default: ""
+      build_env:
+        description: Optional newline-separated KEY=VALUE pairs exported for build_command.
+        required: false
+        type: string
+        default: ""
       commit:
         description: Full commit SHA of the calling repository the assets were built from.
         required: false
@@ -83,11 +88,13 @@ jobs:
       - name: Build
         if: inputs.build_command != ''
         env:
-          # The publish build must emit origin-relative asset URLs: it creates the
-          # release the deploy build then resolves, so there is nothing to resolve
-          # here yet.
-          FISPROXY_CDN_ASSETS: plan
-        run: ${{ inputs.build_command }}
+          BUILD_ENV: ${{ inputs.build_env }}
+        run: |
+          while IFS= read -r line; do
+            [ -n "$line" ] || continue
+            echo "$line" >> "$GITHUB_ENV"
+          done <<< "$BUILD_ENV"
+          ${{ inputs.build_command }}
 
       - name: Verify the source directory exists
         run: |
