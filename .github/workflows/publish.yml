@@ -1,0 +1,135 @@
+name: publish-assets
+
+# Single entry point for publishing a front-end's public build output to the
+# jsDelivr mirrors. Site repositories call it directly:
+#
+#   jobs:
+#     publish-assets:
+#       uses: nyaproxy/fisproxy-cdn-assets/.github/workflows/publish.yml@main
+#       with:
+#         site: wiki
+#         tag: wiki-${{ github.sha }}
+#         build_command: bun install --frozen-lockfile && bun run build
+#         source_dir: out/_next/static
+#         repo_dir: wiki/_next/static
+#         commit: ${{ github.sha }}
+#       secrets:
+#         token: ${{ secrets.CDN_ASSETS_TOKEN }}
+#
+# `token` must be able to push to this repository (fine-grained PAT with
+# contents:write, or a classic token with repo scope). Everything else is derived
+# from the inputs, so the build here and the build that deploys the shell (for
+# example Cloudflare Pages) produce byte-identical files for the same commit.
+on:
+  workflow_call:
+    inputs:
+      site:
+        description: Site identifier; also the tag prefix and the directory inside this repository.
+        required: true
+        type: string
+      tag:
+        description: Immutable tag for this release, formatted <site>-<sha>.
+        required: true
+        type: string
+      source_dir:
+        description: Directory in the calling repository that holds the files to publish.
+        required: true
+        type: string
+      repo_dir:
+        description: Destination directory inside this repository, e.g. wiki/_next/static.
+        required: true
+        type: string
+      build_command:
+        description: Optional shell command that produces source_dir before publishing.
+        required: false
+        type: string
+        default: ""
+      commit:
+        description: Full commit SHA of the calling repository the assets were built from.
+        required: false
+        type: string
+        default: ""
+      keep_tags:
+        description: How many tags to keep per site (newest first).
+        required: false
+        type: number
+        default: 3
+      bun_version:
+        description: Bun version used for build_command.
+        required: false
+        type: string
+        default: "1.x"
+    secrets:
+      token:
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out the calling repository
+        uses: actions/checkout@v4
+
+      - name: Set up Bun
+        if: inputs.build_command != ''
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ inputs.bun_version }}
+
+      - name: Build
+        if: inputs.build_command != ''
+        env:
+          # The publish build must emit origin-relative asset URLs: it creates the
+          # release the deploy build then resolves, so there is nothing to resolve
+          # here yet.
+          FISPROXY_CDN_ASSETS: plan
+        run: ${{ inputs.build_command }}
+
+      - name: Verify the source directory exists
+        run: |
+          test -d "${{ inputs.source_dir }}" || {
+            echo "::error::${{ inputs.source_dir }} was not produced by the build"
+            exit 1
+          }
+
+      - name: Check out the asset repository
+        uses: actions/checkout@v4
+        with:
+          repository: nyaproxy/fisproxy-cdn-assets
+          ref: main
+          path: .cdn-assets
+          token: ${{ secrets.token }}
+          fetch-depth: 0
+
+      - name: Publish assets
+        working-directory: .cdn-assets
+        env:
+          SOURCE_DIR: ${{ github.workspace }}/${{ inputs.source_dir }}
+          GIT_AUTHOR_NAME: f1sunia
+          GIT_AUTHOR_EMAIL: 289944096+F1sunia@users.noreply.github.com
+          GIT_COMMITTER_NAME: f1sunia
+          GIT_COMMITTER_EMAIL: 289944096+F1sunia@users.noreply.github.com
+        run: |
+          node tools/publish-assets.mjs \
+            --site "${{ inputs.site }}" \
+            --tag "${{ inputs.tag }}" \
+            --source-dir "$SOURCE_DIR" \
+            --repo-dir "${{ inputs.repo_dir }}" \
+            --commit "${{ inputs.commit }}" \
+            --keep-tags "${{ inputs.keep_tags }}"
+
+      - name: Summarize the release
+        run: |
+          manifest=".cdn-assets/${{ inputs.site }}/manifest.json"
+          test -f "$manifest" || { echo "::error::manifest was not written"; exit 1; }
+          {
+            echo "### ${{ inputs.tag }}"
+            echo
+            echo "- files: $(jq '.files | length' "$manifest")"
+            echo "- bytes: $(jq '[.files[].bytes] | add' "$manifest")"
+            echo "- mirror: https://cdn.jsdmirror.com/gh/nyaproxy/fisproxy-cdn-assets@${{ inputs.tag }}/${{ inputs.site }}/manifest.json"
+          } >> "$GITHUB_STEP_SUMMARY"
