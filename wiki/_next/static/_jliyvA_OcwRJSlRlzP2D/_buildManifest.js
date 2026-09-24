@@ -3,7 +3,7 @@ self.__BUILD_MANIFEST = {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/gh/nyaproxy/fisproxy-cdn-assets@wiki-e66499a/wiki/_next/:path+",
+        "source": "/gh/nyaproxy/fisproxy-cdn-assets@wiki-1a157d9/wiki/_next/:path+",
         "destination": "/_next/:path+"
       }
     ],
