@@ -134,6 +134,10 @@ function main() {
 }
 
 function pruneTags(site, currentTag, keepTags) {
+  if (keepTags === 0) {
+    console.log(`retaining all ${site} tags`)
+    return
+  }
   const existing = git(["tag", "--list", `${site}-*`, "--sort=-creatordate"])
     .split("\n")
     .map((line) => line.trim())

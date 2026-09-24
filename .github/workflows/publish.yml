@@ -55,7 +55,7 @@ on:
         type: string
         default: ""
       keep_tags:
-        description: How many tags to keep per site (newest first).
+        description: How many tags to keep per site (newest first); 0 retains all tags.
         required: false
         type: number
         default: 3

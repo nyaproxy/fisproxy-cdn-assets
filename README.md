@@ -22,6 +22,9 @@ Every release is one tag. Tags carry the site name so one repository can serve s
 `<sha7>` is the 7 character short commit SHA of the site repository the assets were built from. A tag is
 immutable: it is created once by `.github/workflows/publish.yml` and never moved, which is what keeps the
 mirrors from serving a stale bundle. Old tags are pruned by the same run (`keep_tags`, default 3).
+Set `keep_tags: 0` to retain all tags. The shop uses this setting because retained origin releases
+still import their matching CDN release. Deploy the publisher's zero-retention support before enabling
+this setting in a caller; the older publisher treats zero as pruning every previous tag.
 
 Each tag contains `manifest.json` next to the files:
 
